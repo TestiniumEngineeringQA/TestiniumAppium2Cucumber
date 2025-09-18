@@ -227,7 +227,7 @@ Feature: OpenApplication
     Then Wait 2 seconds
 
   @BasicTiklamalarAndroid04
-  Scenario: BasicTiklamalarAndroid04
+  Scenario: BasicTiklamalarAndroid04+
     Given Wait 5 seconds
     Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
     Then Wait 2 seconds

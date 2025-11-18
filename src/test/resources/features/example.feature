@@ -2,7 +2,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarIOS01
   Scenario: BasicTiklamalarIOS01
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
     Then Wait 2 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
@@ -22,7 +22,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarIOS02
   Scenario: BasicTiklamalarIOS02
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
     Then Wait 2 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
@@ -80,7 +80,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarIOS03
   Scenario: BasicTiklamalarIOS03
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
     Then Wait 2 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
@@ -90,7 +90,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarIOS04
   Scenario: BasicTiklamalarIOS04
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
     Then Wait 2 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
@@ -107,7 +107,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarIOS05
   Scenario: BasicTiklamalarIOS05
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
     Then Wait 2 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
@@ -150,7 +150,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarAndroid01
   Scenario: BasicTiklamalarAndroid01
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
     Then Wait 2 seconds
     Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
@@ -160,7 +160,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarAndroid02
   Scenario: BasicTiklamalarAndroid02
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
     Then Wait 2 seconds
     Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
@@ -194,7 +194,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarAndroid03
   Scenario: BasicTiklamalarAndroid03
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
     Then Wait 2 seconds
     Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
@@ -228,7 +228,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarAndroid04
   Scenario: BasicTiklamalarAndroid04+
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
     Then Wait 2 seconds
     Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
@@ -248,7 +248,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarAndroid05
   Scenario: BasicTiklamalarAndroid05
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
     Then Wait 2 seconds
     Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
@@ -262,7 +262,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarAndroid06
   Scenario: BasicTiklamalarAndroid06
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
     Then Wait 2 seconds
     Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
@@ -308,7 +308,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarAndroidFail
   Scenario: BasicTiklamalarAndroidFail
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
     Then Wait 2 seconds
     Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
@@ -328,7 +328,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarAndroidFail2
   Scenario: BasicTiklamalarAndroidFail2
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
     Then Wait 2 seconds
     Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
@@ -348,7 +348,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarAndroidFail3
   Scenario: BasicTiklamalarAndroidFail3
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
     Then Wait 2 seconds
     Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
@@ -367,7 +367,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarIOSFail
   Scenario: BasicTiklamalarIOSFail
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
     Then Wait 2 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
@@ -395,7 +395,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarIOSFail2
   Scenario: BasicTiklamalarIOSFail2
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
     Then Wait 2 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
@@ -423,7 +423,7 @@ Feature: OpenApplication
 
   @BasicTiklamalarIOSFail3
   Scenario: BasicTiklamalarIOSFail3
-    Given Wait 5 seconds
+    Given Wait 15 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
     Then Wait 2 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked

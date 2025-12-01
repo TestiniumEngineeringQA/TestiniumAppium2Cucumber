@@ -436,3 +436,47 @@ Feature: OpenApplication
     Then Wait 2 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Kampanyalar']" is clicked
     Then Wait 2 seconds
+
+
+  @BasicTiklamalarAndroidGratis00
+  Scenario: BasicTiklamalarAndroid01
+    Given Wait 15 seconds
+    Then Wait 2 seconds
+
+  @BasicTiklamalarAndroidGratis02
+  Scenario: BasicTiklamalarAndroid01
+    Given Wait 15 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
+    Then Wait 2 seconds
+
+  @BasicTiklamalarAndroidGratis03
+  Scenario: BasicTiklamalarAndroid01
+    Given Wait 15 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_campaign" is clicked
+    Then Wait 2 seconds
+
+
+  @BasicTiklamalarIOSAvita00
+  Scenario: BasicTiklamalarAndroid01
+    Given Wait 15 seconds
+    Then Wait 2 seconds
+
+  @BasicTiklamalarIOSAvita02
+  Scenario: BasicTiklamalarAndroid01
+    Given Wait 15 seconds
+    Then Element with xpath "//XCUIElementTypeOther[@name=\"test.tutorial.skip\"]" is clicked
+    Then Wait 2 seconds
+
+  @BasicTiklamalarIOSAvita03
+  Scenario: BasicTiklamalarAndroid01
+    Given Wait 15 seconds
+    Then Element with id "//XCUIElementTypeOther[@name=\"test.tutorial.skip\"]" is clicked
+    Then Wait 2 seconds
+    Then Element with id "//XCUIElementTypeOther[@name=\"test.authorization.submit\"]" is clicked
+    Then Wait 2 seconds
+    Then Element with id "//XCUIElementTypeOther[@name=\"test.authorization.forgotPassword\"]" is clicked
+    Then Wait 2 seconds
